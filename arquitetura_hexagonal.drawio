@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2024-03-15T11:52:39.611Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="CK2bVPwyXUt5m7rLZsti" version="22.1.18" type="device">
+  <diagram name="Página-1" id="cQaTZ2BoVUE9XVWpWSre">
+    <mxGraphModel dx="1674" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1uVZ1kx5hU0-Xd89hsUn-1" value="Banco de Dados" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1uVZ1kx5hU0-Xd89hsUn-2" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;userRepository" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470" y="230" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1uVZ1kx5hU0-Xd89hsUn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1uVZ1kx5hU0-Xd89hsUn-5" target="1uVZ1kx5hU0-Xd89hsUn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1uVZ1kx5hU0-Xd89hsUn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1uVZ1kx5hU0-Xd89hsUn-5" target="1uVZ1kx5hU0-Xd89hsUn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1uVZ1kx5hU0-Xd89hsUn-5" value="&lt;br&gt;userRepository" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1uVZ1kx5hU0-Xd89hsUn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1uVZ1kx5hU0-Xd89hsUn-11" target="1uVZ1kx5hU0-Xd89hsUn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1uVZ1kx5hU0-Xd89hsUn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1uVZ1kx5hU0-Xd89hsUn-11" target="1uVZ1kx5hU0-Xd89hsUn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1uVZ1kx5hU0-Xd89hsUn-11" value="user_handler" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="230" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1uVZ1kx5hU0-Xd89hsUn-13" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;userHandlerInterface" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="50" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1uVZ1kx5hU0-Xd89hsUn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1uVZ1kx5hU0-Xd89hsUn-15" target="1uVZ1kx5hU0-Xd89hsUn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1uVZ1kx5hU0-Xd89hsUn-15" value="GET - /api/v1/usuario&lt;br&gt;POST - /api/v1/usuario" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="660" y="440" width="140" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
