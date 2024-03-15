@@ -1,0 +1,27 @@
+[
+    {
+        "nome": "Pedro",
+        "sobrenome": "Alves",
+        "telefone": "12345678"
+    },
+    {
+        "nome": "Pedro",
+        "sobrenome": "Cardoso",
+        "telefone": "12345678"
+    },
+    {
+        "nome": "Tabata",
+        "sobrenome": "silva",
+        "telefone": "12345678"
+    },
+    {
+        "nome": "maria",
+        "sobrenome": "joao",
+        "telefone": "12345678"
+    },
+    {
+        "nome": "michael",
+        "sobrenome": "medina",
+        "telefone": "12345678"
+    }
+]
