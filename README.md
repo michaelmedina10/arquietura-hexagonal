@@ -18,6 +18,10 @@
 
 A comunicação das camadas é sempre de fora para dentro, Adapters -> Application -> Domain(Core)
 
+#### Diagrama do projeto
+
+![alt text](image-1.png)
+
 #### (EXTRA) Formatador Python
 
 Podemos configurar o VScode para formatar o código python automaticamente, usando a extensão **Ruff** e a extensão **Too Long - line limit**
